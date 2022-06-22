@@ -1,4 +1,4 @@
-import { Request, Response, Send } from "express";
+import { Request, Response } from "express";
 
 export default class CreateuserController {
     constructor() {}
