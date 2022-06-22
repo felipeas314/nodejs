@@ -17,6 +17,7 @@
       "@types/node": "^16.11.10",
       "@typescript-eslint/eslint-plugin": "^5.28.0",
       "@typescript-eslint/parser": "^5.28.0",
+      "artillery": "^2.0.0-18",
       "eslint": "^8.18.0",
       "jest": "^28.1.1",
       "ts-node": "10.7.0",

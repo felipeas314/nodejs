@@ -1,0 +1,11 @@
+config:
+  target: "http://localhost:4000/api"
+  phases:
+    - duration: 30
+      arrivalRate: 10
+ 
+scenarios:
+  - name: "Retrieve data"
+    flow:
+      - get:
+          url: "/health"

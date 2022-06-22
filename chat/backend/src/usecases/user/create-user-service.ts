@@ -14,7 +14,7 @@ export default class CreateUserService {
         return this.userRepository.create(user)
     }
 
-    validUser() {
+    private validUser() {
         
     }
 }
