@@ -1,9 +1,9 @@
-import UserRepository from "repository/UserRepository"
-import CreateUserService from "usecases/user/create-user-service"
+import UserRepositoryImpl from 'repository/typeorm/UserRepositoryImpl';
+import CreateUserService from 'usecases/user/create-user-service';
 
 export const makeCreateUserService = () => {
-    const userRepository = new UserRepository()
-    const createUserService = new CreateUserService(userRepository)
+  const userRepository = new UserRepositoryImpl();
+  const createUserService = new CreateUserService(userRepository);
 
-    return createUserService
-}
+  return createUserService;
+};
